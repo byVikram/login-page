@@ -1,0 +1,114 @@
+.putnav{
+  padding: 5px;
+}
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 3px;
+}
+#navbar a:hover{
+  color: black;
+  transition: 0.5s;
+  padding: 3px;
+  border-radius: 5px;
+}
+#navbar {
+  background-color: #555;
+  
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#navbar li {
+  margin-right: 20px;
+}
+.sch{
+  width: 100px;
+}
+.go:hover{
+  background-color: rgb(118, 244, 164);
+  transition: 0.5s;
+}
+
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  
+}
+
+.article {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #595757;
+  padding: 20px;
+  width: 32%; 
+  text-align: justify;
+}
+
+.textinp{
+  width: fit-content;
+  padding: 10px;
+
+}
+
+.inp{
+margin-left: 20px;
+}
+
+.hii{
+  display: flex;
+}
+
+.stusn{
+  margin-left: 30px;
+  }
+.btn{
+  background-color: #555;
+  margin-left: 100px;
+}
+.btn:hover{
+  background-color: rgb(118, 244, 164);
+  color: white;
+  transition: 0.5s;
+}
+
+.content{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.image{
+  width: 1000px;
+  height: 500px;
+  padding: 10px;
+  
+  
+}
+
+.foot{
+  background-color: #595757;
+  font-size: 20px;
+  color: #ccc;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+
+

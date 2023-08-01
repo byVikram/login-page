@@ -1,0 +1,18 @@
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.submit{
+    width: 100px;
+    margin: auto;
+}
